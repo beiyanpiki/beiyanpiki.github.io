@@ -1,17 +1,17 @@
 {
-  "name": "amphineko",
+  "name": "beiyanpiki.github.io",
   "version": "0.0.1",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amphineko/amphineko.git"
+    "url": "git+https://github.com/beiyanpiki/beiyanpiki.github.io.git"
   },
-  "author": "amphineko <sukareki@gmail.com>",
+  "author": "beiyanpiki <Shange.GaoX@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amphineko/amphineko/issues"
+    "url": "https://github.com/beiyanpiki/beiyanpiki.github.io/issues"
   },
-  "homepage": "https://futa.moe/amphineko/",
+  "homepage": "https://about.cycu.moe/",
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server -d"
