@@ -14,7 +14,7 @@ function GetRequest() {
 window.onload = function () {
     let Request = new Object();
     Request = GetRequest();
-    no_background = Request['no_background']
+    no_background = Request['with_background']
     if (no_background === 'true') {
         document.getElementById("container").id = 'without-container';
         document.getElementById("header-with-background").id = 'header-without-background';
