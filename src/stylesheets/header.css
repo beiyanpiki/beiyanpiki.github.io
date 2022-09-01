@@ -53,8 +53,6 @@
 }
 
 .section.header .picture {
-    background: white;
-    border: 0.5em solid white;
     border-radius: 50%;
     box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.15);
     display: block;
