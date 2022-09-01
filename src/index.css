@@ -3,13 +3,13 @@
 @import "~@fortawesome/fontawesome-free/css/regular.css";
 @import "~@fortawesome/fontawesome-free/css/solid.css";
 @import "~unsemantic/assets/stylesheets/unsemantic-grid-responsive.css";
-@import "stylesheets/iconfont.css";
 @import "stylesheets/chem-elements.css";
 @import "stylesheets/footer.css";
 @import "stylesheets/header.css";
 @import "stylesheets/identities.css";
 @import "stylesheets/intro.css";
 @import "stylesheets/labels.css";
+
 body {
   font-size: 1em;
   margin: 0;
