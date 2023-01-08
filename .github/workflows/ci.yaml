@@ -20,4 +20,4 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.BUILD_SECRET }}
         BRANCH: publish
-        FOLDER: build
+        FOLDER: dist

@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/beiyanpiki/beiyanpiki.github.io/issues"
   },
-  "homepage": "https://mki.moe/about",
+  "homepage": "https://beiyanpiki.github.io",
   "scripts": {
     "build": "webpack -p",
     "start": "NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server -d"
