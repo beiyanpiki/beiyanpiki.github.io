@@ -13,7 +13,7 @@
   },
   "homepage": "https://mki.moe/about",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && webpack -p",
+    "build": "webpack -p",
     "start": "NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server -d"
   },
   "devDependencies": {
