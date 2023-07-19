@@ -13,8 +13,8 @@ jobs:
         persist-credentials: false
     - name: Install and Build
       run: |
-        NODE_OPTIONS=‘--openssl-legacy-provider’ npm install
-        NODE_OPTIONS=‘--openssl-legacy-providernpm’ npm run-script build
+        npm install
+        npm run-script build
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
