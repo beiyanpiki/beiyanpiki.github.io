@@ -13,7 +13,7 @@
   },
   "homepage": "https://beiyanpiki.github.io",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && webpack -p",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && webpack -p",
     "start": "NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server -d"
   },
   "devDependencies": {
