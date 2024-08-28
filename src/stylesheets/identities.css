@@ -104,7 +104,7 @@
 }
 
 .button,
-.chem-element {
+.miku-element {
   transition-duration: 0.5s;
 }
 
@@ -132,4 +132,10 @@
 .identity .where .status {
   vertical-align: sub;
   font-size: 0.3em;
+}
+
+.external_link{
+  text-decoration: none;
+  color: #55474a;
+  font-weight: bold;
 }

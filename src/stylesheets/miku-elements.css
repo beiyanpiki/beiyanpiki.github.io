@@ -1,4 +1,4 @@
-.chem-element {
+.miku-element {
     background: rgba(255, 163, 163, 0.09);
     border-radius: 0.25em;
     box-shadow: 0 0 0.1em 0.1em rgba(0, 0, 0, 0.05);
@@ -8,17 +8,18 @@
     transition-duration: 0.5s;
 }
 
-.chem-element:hover {
+.miku-element:hover {
     box-shadow: 0 0 0.2em 0.2em rgba(255, 255, 255, 0.05);
 }
 
 
-.chem-element[data-element="beryllium"]::after {
-    content: '4';
+.miku-element[data-element="miku"]::after {
+    content: '39';
     font-size: 0.45em;
     vertical-align: -0.5em;
 }
 
-.chem-element[data-element="beryllium"]:hover {
-    background: #faa3a3;
+.miku-element[data-element="miku"]:hover {
+    background: #39C5BB;
 }
+  
